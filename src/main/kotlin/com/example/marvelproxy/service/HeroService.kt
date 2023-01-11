@@ -1,8 +1,6 @@
 package com.example.marvelproxy.service
 
-import com.example.marvelproxy.model.Hero
 import org.springframework.stereotype.Service
-import java.util.Optional
 
 @Service
 class HeroService {
@@ -21,6 +19,3 @@ private fun createDummyList(): List<MarvelHero> = listOf(
 )
 
 data class MarvelHero(val id: String, val name: String)
-
-
-internal fun <T : Any> Optional<out T>.toList(): List<T> = if (isPresent) listOf(get()) else emptyList()
