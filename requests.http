@@ -1,0 +1,34 @@
+### Post "user_1"
+POST http://localhost:8080/favorites/add
+Content-Type: application/json
+
+{
+  "userId": "user_1",
+  "heroId": "1234"
+}
+
+### Post "user_2"
+
+POST http://localhost:8080/favorites/add
+Content-Type: application/json
+
+{
+  "userId": "user_2",
+  "heroId": "1234"
+}
+
+### Get all favorites for user_1
+GET http://localhost:8080/favorites
+Content-Type: application/json
+
+{
+  "userId": "user_1"
+}
+
+### Get all heroes for user_2
+GET http://localhost:8080/heroes
+Content-Type: application/json
+
+{
+  "userId": "user_1"
+}
