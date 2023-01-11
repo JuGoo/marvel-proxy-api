@@ -1,6 +1,6 @@
 package com.example.marvelproxy.controller
 
-import com.example.marvelproxy.Favorites
+import com.example.marvelproxy.model.Favorites
 import com.example.marvelproxy.service.FavoriteService
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PostMapping

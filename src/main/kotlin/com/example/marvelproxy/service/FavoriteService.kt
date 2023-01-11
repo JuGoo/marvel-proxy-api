@@ -2,7 +2,7 @@ package com.example.marvelproxy.service
 
 import com.example.marvelproxy.repository.FavoriteRepository
 
-import com.example.marvelproxy.Favorites
+import com.example.marvelproxy.model.Favorites
 import org.springframework.stereotype.Service
 
 @Service

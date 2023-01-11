@@ -1,20 +1,30 @@
-### Post "user_1"
+### Post "user_1" add captain america to favorites
 POST http://localhost:8080/favorites/add
 Content-Type: application/json
 
 {
   "userId": "user_1",
-  "heroId": "1234"
+  "heroId": "1"
 }
 
-### Post "user_2"
+### Post "user_2" add captain america to favorites
 
 POST http://localhost:8080/favorites/add
 Content-Type: application/json
 
 {
   "userId": "user_2",
-  "heroId": "1234"
+  "heroId": "1"
+}
+
+### Post "user_2" add iron man to favorites
+
+POST http://localhost:8080/favorites/add
+Content-Type: application/json
+
+{
+  "userId": "user_1",
+  "heroId": "2"
 }
 
 ### Get all favorites for user_1

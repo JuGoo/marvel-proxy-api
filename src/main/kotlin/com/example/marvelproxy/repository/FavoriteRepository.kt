@@ -1,6 +1,6 @@
 package com.example.marvelproxy.repository
 
-import com.example.marvelproxy.Favorites
+import com.example.marvelproxy.model.Favorites
 import org.springframework.data.repository.CrudRepository
 import java.util.UUID
 
